@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas 1º ESO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            min-height: 100vh;
+            color: #f1f5f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #fbbf24, #a855f7);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tema {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.2s, background 0.2s;
+            display: block;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .tema:hover {
+            transform: translateY(-5px);
+            background: rgba(51, 65, 85, 0.9);
+            border-color: #a855f7;
+        }
+
+        .icono {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tema h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            color: #fde047;
+        }
+
+        .tema p {
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📐 Matemáticas 1º ESO</h1>
+        <div class="subtitulo">Selecciona un tema para comenzar</div>
+
+        <div class="grid">
+            <a href="divisibilidad.html" class="tema">
+                <div class="icono">🔢</div>
+                <h2>Divisibilidad</h2>
+                <p>Múltiplos, divisores, números primos y criterios</p>
+            </a>
+
+            <a href="enteros.html" class="tema">
+                <div class="icono">➖➕</div>
+                <h2>Números Enteros</h2>
+                <p>Positivos, negativos, valor absoluto y operaciones</p>
+            </a>
+
+            <a href="fracciones.html" class="tema">
+                <div class="icono">🍕</div>
+                <h2>Fracciones</h2>
+                <p>Representación, equivalencia y operaciones</p>
+            </a>
+
+            <a href="decimales.html" class="tema">
+                <div class="icono">🔟</div>
+                <h2>Números Decimales</h2>
+                <p>Operaciones, redondeo y paso a fracción</p>
+            </a>
+
+            <a href="algebra.html" class="tema">
+                <div class="icono">✖️✖️</div>
+                <h2>Álgebra</h2>
+                <p>Monomios, ecuaciones de primer grado</p>
+            </a>
+
+            <a href="proporcionalidad.html" class="tema">
+                <div class="icono">📊</div>
+                <h2>Proporcionalidad y %</h2>
+                <p>Regla de tres, porcentajes, aumentos y descuentos</p>
+            </a>
+
+            <a href="funciones.html" class="tema">
+                <div class="icono">📈</div>
+                <h2>Funciones</h2>
+                <p>Coordenadas, tablas y gráficas lineales</p>
+            </a>
+        </div>
+
+        <footer>✨ Elige un tema y empieza a aprender ✨</footer>
+    </div>
+</body>
+</html>
